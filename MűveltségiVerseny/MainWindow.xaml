@@ -5,10 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MűveltségiVerseny"
         mc:Ignorable="d"
-        Title="MainWindow" Height="648" Width="800">
+        Title="MainWindow" Height="962" Width="800">
     <Grid>
 
-        <Label Content="Kérdések" Height="24" Width="121" RenderTransformOrigin="0.5,0.5" Margin="2,17,677,591">
+        <Label Content="Kérdések" Height="24" Width="121" RenderTransformOrigin="0.5,0.5" Margin="10,14,669,908">
             <Label.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -18,23 +18,28 @@
                 </TransformGroup>
             </Label.RenderTransform>
         </Label>
-        <ListBox x:Name="lst2" Height="100" Width="366" Margin="0,47,434,485"/>
-        <TextBlock x:Name="text" TextWrapping="Wrap" Margin="172,183,434,388"/>
-        <Button x:Name="button" Content="Számolás" Click="button_Click" Margin="5,152,620,436"/>
-        <Label Content="3 pontos kémia feladatok száma" HorizontalAlignment="Left" Height="49" Margin="8,201,0,0" VerticalAlignment="Top" Width="175"/>
-        <Button x:Name="button2" Content="Számolás" Margin="8,243,616,350" Click="button2_Click"/>
-        <TextBlock x:Name="txt2" HorizontalAlignment="Left" Height="40" Margin="192,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="164"/>
-        <Label Content="Válaszok számértékeinek tartománya" HorizontalAlignment="Left" Height="38" Margin="352,178,0,0" VerticalAlignment="Top" Width="222"/>
-        <Button x:Name="button3" Content="Számolás" HorizontalAlignment="Left" Height="47" Margin="400,229,0,0" VerticalAlignment="Top" Width="163" Click="button3_Click"/>
-        <TextBlock x:Name="txt3" HorizontalAlignment="Left" Height="44" Margin="416,0,0,0" TextWrapping="Wrap"  VerticalAlignment="Center" Width="132"/>
-        <Label Content="Témakörök listája" HorizontalAlignment="Left" Height="27" Margin="400,10,0,0" VerticalAlignment="Top" Width="125"/>
-        <ListBox x:Name="temakorbox" HorizontalAlignment="Left" Height="100" Margin="414,45,0,0" VerticalAlignment="Top" Width="351"/>
-        <Button x:Name="buttonotos" Content="Listázás" HorizontalAlignment="Left" Height="42" Margin="594,158,0,0" VerticalAlignment="Top" Width="171" Click="buttonotos_Click"/>
-        <Label Content="Keresés kérdésekben" HorizontalAlignment="Left" Height="43" Margin="5,334,0,0" VerticalAlignment="Top" Width="125"/>
-        <TextBox x:Name="aaaaaa" HorizontalAlignment="Left" Height="22" Margin="155,343,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="130"/>
-        <Button Content="Button" HorizontalAlignment="Left" Height="23" Margin="304,344,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_1"/>
-        <ListBox x:Name="kereseséistbox" HorizontalAlignment="Left" Height="117" Margin="15,402,0,0" VerticalAlignment="Top" Width="313"/>
-        <Label x:Name="bbbbbb" HorizontalAlignment="Left" Height="25" Margin="212,372,0,0" VerticalAlignment="Top" Width="336"/>
+        <ListBox x:Name="lst2" Height="100" Margin="14,45,35,801"/>
+        <TextBlock x:Name="text" TextWrapping="Wrap" Margin="14,201,580,707"/>
+        <Button x:Name="button" Content="Számolás" Click="button_Click" Margin="304,161,320,743"/>
+        <Label Content="3 pontos kémia feladatok száma" HorizontalAlignment="Left" Height="49" Margin="5,244,0,0" VerticalAlignment="Top" Width="175"/>
+        <Button x:Name="button2" Content="Számolás" Margin="304,232,335,664" Click="button2_Click"/>
+        <TextBlock x:Name="txt2" HorizontalAlignment="Left" Height="40" Margin="16,280,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
+        <Label Content="Válaszok számértékeinek tartománya" HorizontalAlignment="Left" Height="38" Margin="10,316,0,0" VerticalAlignment="Top" Width="222"/>
+        <Button x:Name="button3" Content="Számolás" HorizontalAlignment="Left" Height="47" Margin="308,316,0,0" VerticalAlignment="Top" Width="164" Click="button3_Click"/>
+        <TextBlock x:Name="txt3" HorizontalAlignment="Left" Height="44" Margin="16,344,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="216"/>
+        <Label Content="Témakörök listája" HorizontalAlignment="Left" Height="27" Margin="14,388,0,0" VerticalAlignment="Top" Width="125"/>
+        <ListBox x:Name="temakorbox" HorizontalAlignment="Left" Height="100" Margin="10,435,0,0" VerticalAlignment="Top" Width="755"/>
+        <Button x:Name="buttonotos" Content="Listázás" HorizontalAlignment="Left" Height="42" Margin="302,388,0,0" VerticalAlignment="Top" Width="161" Click="buttonotos_Click"/>
+        <Label Content="Keresés kérdésekben" HorizontalAlignment="Left" Height="44" Margin="14,546,0,0" VerticalAlignment="Top" Width="125"/>
+        <TextBox x:Name="aaaaaa" HorizontalAlignment="Left" Height="22" Margin="139,578,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="177"/>
+        <Button Content="Keresés" HorizontalAlignment="Left" Height="23" Margin="321,578,0,0" VerticalAlignment="Top" Width="142" Click="Button_Click_1"/>
+        <ListBox x:Name="kereseséistbox" HorizontalAlignment="Left" Height="89" Margin="10,637,0,0" VerticalAlignment="Top" Width="764"/>
+        <Label x:Name="bbbbbb" HorizontalAlignment="Left" Height="25" Margin="198,744,0,0" VerticalAlignment="Top" Width="388"/>
+        <TextBox HorizontalAlignment="Left" Height="21" Margin="279,783,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="217"/>
+        <Button x:Name="valaszbutton" Content="Válasz küldése" HorizontalAlignment="Left" Height="23" Margin="328,818,0,0" VerticalAlignment="Top" Width="119" />
+        <Label Content="Véletlenszerű feladatsor generálása" HorizontalAlignment="Left" Height="27" Margin="16,894,0,0" VerticalAlignment="Top" Width="230"/>
+        <Button Content="Generálás" HorizontalAlignment="Left" Height="27" Margin="312,903,0,0" VerticalAlignment="Top" Width="144" Click="Button_Click_2"/>
+        <TextBlock x:Name="pontszam" HorizontalAlignment="Left" Height="29" Margin="27,847,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="194"/>
 
 
 
